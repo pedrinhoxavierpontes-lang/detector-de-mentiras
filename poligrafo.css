@@ -1,0 +1,67 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #444444;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.tela {
+    display: none;
+}
+
+.ativa {
+    display: block;
+}
+
+.barra {
+    background-color: #dddddd;
+    height: 10px;
+    margin: 20px 0;
+}
+
+#progresso {
+    background-color: #4caf50;
+    width: 10%;
+    height: 100%;
+}
+
+#classificacao {
+    color: #cc3333;
+}

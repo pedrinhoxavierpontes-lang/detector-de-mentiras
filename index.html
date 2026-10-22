@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Mentiras</title>
+    <link rel="stylesheet" href="poligrafo.css">
+    <script src="poligrafo.js" defer></script>
+</head>
+<body>
+
+    <main>
+
+        <section id="inicio" class="tela ativa">
+            <h1>Detector de Mentiras</h1>
+
+            <p>Você vai passar por um detector de mentiras.</p>
+            <p>Responda somente a verdade.</p>
+
+            <button id="iniciar">Iniciar Interrogatório</button>
+        </section>
+
+        <section id="interrogatorio" class="tela">
+            <h1>Interrogatório</h1>
+
+            <p id="contador">01 / 10</p>
+
+            <div class="barra">
+                <div id="progresso"></div>
+            </div>
+
+            <p id="numero-pergunta">PERGUNTA 01</p>
+
+            <h2 id="pergunta"></h2>
+
+            <button id="responder-sim">Sim</button>
+            <button id="responder-nao">Não</button>
+        </section>
+
+        <section id="resultado" class="tela">
+            <h1>Resultado</h1>
+
+            <p>Obrigado por cooperar conosco!</p>
+
+            <p>Você disse SIM <span id="total-sim">0</span> vezes.</p>
+            <p>Você disse NÃO <span id="total-nao">0</span> vezes.</p>
+
+            <h2 id="classificacao"></h2>
+
+            <p id="mensagem-resultado"></p>
+
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+
+    </main>
+
+</body>
+</html>
